@@ -1,0 +1,61 @@
+// @import "@fontawesome/fontawesome-free/css/all.css";
+// @import "node_modules/bootstrap/scss/bootstrap";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  overflow: hidden;
+}
+
+.aquarium {
+  background-color: rgb(178, 194, 236);
+  height: 720px;
+  width: 100%;
+  position: relative;
+  margin: 0;
+}
+
+.fish {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  overflow: hidden;
+}
+
+.smallfish {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  overflow: hidden;
+}
+
+.plant1,
+.plant3 {
+  width: 150px;
+  height: 150px;
+}
+
+.plant2 {
+  height: 250px;
+  width: 250px;
+  margin: 0;
+  padding: 0;
+}
+
+.plant4 {
+  width: 100px;
+  height: 100px;
+}
+
+.blowfish {
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    transform: scale(2);
+  }
+}
+
+.shrimp {
+  height: 40px;
+  width: 40px;
+  position: absolute;
+}
